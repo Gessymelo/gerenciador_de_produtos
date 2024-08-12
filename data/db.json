@@ -1,0 +1,10 @@
+{
+    "fornecedores": [
+        {
+            "id": 1,
+            "nome": "Urbano LTDA",
+            "cnpj": "33.691.121/0001-86",
+            "email": "sac@urbano.com.br"
+        }
+    ]
+}
