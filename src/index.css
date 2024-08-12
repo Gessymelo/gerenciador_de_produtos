@@ -125,22 +125,23 @@
   }
   
   .btn-secondary {
-    background-color: #007bff;
-    color: #fff;
+    background-color: #98a2aa8d;
+    color: #101010;
   }
   
   .btn-secondary:hover {
-    background-color: #0056b3;
+    background-color: #6d727922;
+    
   }
   
   .btn-primary {
-    background-color: #000000;
+    background-color: #007bff;
     color: #fff;
     text-decoration: none; /* Remove o sublinhado */
   }
   
   .btn-primary:hover {
-    background-color: #333333;
+    background-color: #0056b3;
   }
   
   .btn-warning {
