@@ -1,8 +1,24 @@
-# React + Vite
+# projeto Gerenciador de Produtos
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+:construction: Projeto aplicado no Curso de Fullstck  :construction:
 
-Currently, two official plugins are available:
+-PROFESSOR: Kelson Almeida
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✔️ Tecnologias 
+As seguintes ferramentas foram usada na contrição do projeto:
+#### **WebSite** 
+
+
+- ``REACT ``
+- ``React Router Dom``
+- ``React Icons``
+- ``Axios``
+- ``React Modal``
+
+
+# :hammer: Cronograma do Projeto
+
+- `Passo: 1`: Criação do CRUD Categoria para Fornecedores.
+- `Passo: 2`: Requisicao de Fornecedores:listar fornecedor,deletar.
+
