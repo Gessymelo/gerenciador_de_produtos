@@ -3,7 +3,7 @@
 
 :construction: Projeto aplicado no Curso de Fullstck  :construction:
 
--PROFESSOR: Kelson Almeida
+-PROFESSOR: [Kelson Almeida](https://github.com/kelsonvictr) 
 
 ## ✔️ Tecnologias 
 As seguintes ferramentas foram usada na contrição do projeto:
