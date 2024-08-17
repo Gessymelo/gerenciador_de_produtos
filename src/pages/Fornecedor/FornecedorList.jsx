@@ -1,7 +1,7 @@
 import React, { useEffect , useState } from 'react'
 import axios from '../../api'
 import { Link } from 'react-router-dom'
-import {FaEdit, FaPlus, FaTrash, FaExclamationTriangle,FaCheckCircle} from 'react-icons/fa'
+import {FaEdit, FaPlus, FaTrash, FaExclamationTriangle,FaCheckCircle, FaQuestionCircle} from 'react-icons/fa'
 import Modal from 'react-modal'
 
 const FornecedorList = () => {
@@ -18,6 +18,8 @@ const FornecedorList = () => {
 
     // Estado para controlar a visibilidade do modal de sucesso após exclusão.
     const [modalSucessoAberto, setModalSucessoAberto] = useState(false);
+
+    const [tooltipAberto, setTooltipAberto] = useState(false)
 
     // useEffect é usado para executar código quando o componente é montado na tela.
     // Aqui, estamos buscando os dados dos fornecedores.
@@ -68,9 +70,28 @@ const FornecedorList = () => {
             });
     };
 
+    const toggleTooltip = () => {
+        setTooltipAberto(!tooltipAberto)
+    }
+
     return (
         <div className="container mt-5">
-            <h2 className="mb-4">Lista de Fornecedores</h2>
+            <h2 className="mb-4" style={{ position:'relative' }}>
+                Lista de Fornecedores {' '}
+                 <FaQuestionCircle
+                  className="tooltip-icon"
+                 onClick={toggleTooltip}
+                 />
+                 {tooltipAberto && (
+                    <div className='tooltip'>
+                       Aqui você pode ver, editar ou excluir 
+                       fornecedores cadrastados no sistema. 
+                     </div>
+                 )}
+                 
+                  </h2>
+
+                
 
             {/* Link para adicionar um novo fornecedor */}
             <Link to="/add-fornecedores" className="btn btn-primary mb-2">
